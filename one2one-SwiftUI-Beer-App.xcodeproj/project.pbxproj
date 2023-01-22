@@ -21,9 +21,6 @@
 		49A6A9912975775C00BC102D /* one2one_SwiftUI_Beer_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A6A9902975775C00BC102D /* one2one_SwiftUI_Beer_AppUITestsLaunchTests.swift */; };
 		49A6A9AF29759C0B00BC102D /* BeerRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A6A9AE29759C0B00BC102D /* BeerRowView.swift */; };
 		49A6A9B32975A7BD00BC102D /* KingFIsherImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A6A9B22975A7BD00BC102D /* KingFIsherImageView.swift */; };
-		49E95A7E297DF3A300B9ED0F /* Models in Resources */ = {isa = PBXBuildFile; fileRef = 49E95A7B297DF3A300B9ED0F /* Models */; };
-		49E95A7F297DF3A300B9ED0F /* Helpers in Resources */ = {isa = PBXBuildFile; fileRef = 49E95A7C297DF3A300B9ED0F /* Helpers */; };
-		49E95A80297DF3A300B9ED0F /* Services in Resources */ = {isa = PBXBuildFile; fileRef = 49E95A7D297DF3A300B9ED0F /* Services */; };
 		6EDA66C70C2033044F1423D8 /* Pods_one2one_SwiftUI_Beer_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C30D42F5F128BA78017F399F /* Pods_one2one_SwiftUI_Beer_App.framework */; };
 		B648239B0FA0523D6D422B41 /* Pods_one2one_SwiftUI_Beer_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30E6545B73FF2B36746238CE /* Pods_one2one_SwiftUI_Beer_AppTests.framework */; };
 		F7823B35B08C71EFB96FFB7F /* Pods_one2one_SwiftUI_Beer_App_one2one_SwiftUI_Beer_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D6C358E893D3F28F2F5D30A /* Pods_one2one_SwiftUI_Beer_App_one2one_SwiftUI_Beer_AppUITests.framework */; };
@@ -67,9 +64,6 @@
 		49A6A9902975775C00BC102D /* one2one_SwiftUI_Beer_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = one2one_SwiftUI_Beer_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		49A6A9AE29759C0B00BC102D /* BeerRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerRowView.swift; sourceTree = "<group>"; };
 		49A6A9B22975A7BD00BC102D /* KingFIsherImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingFIsherImageView.swift; sourceTree = "<group>"; };
-		49E95A7B297DF3A300B9ED0F /* Models */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Models; sourceTree = "<group>"; };
-		49E95A7C297DF3A300B9ED0F /* Helpers */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Helpers; sourceTree = "<group>"; };
-		49E95A7D297DF3A300B9ED0F /* Services */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Services; sourceTree = "<group>"; };
 		82D6F0423FC6B09510D4845C /* Pods-one2one-SwiftUI-Beer-App-one2one-SwiftUI-Beer-AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-one2one-SwiftUI-Beer-App-one2one-SwiftUI-Beer-AppUITests.debug.xcconfig"; path = "Target Support Files/Pods-one2one-SwiftUI-Beer-App-one2one-SwiftUI-Beer-AppUITests/Pods-one2one-SwiftUI-Beer-App-one2one-SwiftUI-Beer-AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		A2788BF91E13D84E968AAC49 /* Pods-one2one-SwiftUI-Beer-AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-one2one-SwiftUI-Beer-AppTests.release.xcconfig"; path = "Target Support Files/Pods-one2one-SwiftUI-Beer-AppTests/Pods-one2one-SwiftUI-Beer-AppTests.release.xcconfig"; sourceTree = "<group>"; };
 		B050F5FE759BFDC61E7A6E55 /* Pods-one2one-SwiftUI-Beer-App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-one2one-SwiftUI-Beer-App.debug.xcconfig"; path = "Target Support Files/Pods-one2one-SwiftUI-Beer-App/Pods-one2one-SwiftUI-Beer-App.debug.xcconfig"; sourceTree = "<group>"; };
@@ -149,9 +143,6 @@
 		49A6A9722975775A00BC102D /* one2one-SwiftUI-Beer-App */ = {
 			isa = PBXGroup;
 			children = (
-				49E95A7C297DF3A300B9ED0F /* Helpers */,
-				49E95A7B297DF3A300B9ED0F /* Models */,
-				49E95A7D297DF3A300B9ED0F /* Services */,
 				499F05A92975C44500EB1B60 /* ViewModels */,
 				49A6A9A72975937000BC102D /* Views */,
 				49A6A9732975775A00BC102D /* one2one_SwiftUI_Beer_AppApp.swift */,
@@ -322,10 +313,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49E95A80297DF3A300B9ED0F /* Services in Resources */,
-				49E95A7E297DF3A300B9ED0F /* Models in Resources */,
 				49A6A97B2975775C00BC102D /* Preview Assets.xcassets in Resources */,
-				49E95A7F297DF3A300B9ED0F /* Helpers in Resources */,
 				49A6A9782975775C00BC102D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
