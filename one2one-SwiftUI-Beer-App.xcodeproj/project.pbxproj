@@ -21,6 +21,10 @@
 		49A6A9912975775C00BC102D /* one2one_SwiftUI_Beer_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A6A9902975775C00BC102D /* one2one_SwiftUI_Beer_AppUITestsLaunchTests.swift */; };
 		49A6A9AF29759C0B00BC102D /* BeerRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A6A9AE29759C0B00BC102D /* BeerRowView.swift */; };
 		49A6A9B32975A7BD00BC102D /* KingFIsherImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A6A9B22975A7BD00BC102D /* KingFIsherImageView.swift */; };
+		49E95A95297DFA3600B9ED0F /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E95A94297DFA3600B9ED0F /* Helper.swift */; };
+		49E95A97297DFA4000B9ED0F /* Beer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E95A96297DFA4000B9ED0F /* Beer.swift */; };
+		49E95A99297DFA6300B9ED0F /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E95A98297DFA6300B9ED0F /* ServiceManager.swift */; };
+		49E95A9B297DFA6F00B9ED0F /* BeerApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E95A9A297DFA6F00B9ED0F /* BeerApiManager.swift */; };
 		6EDA66C70C2033044F1423D8 /* Pods_one2one_SwiftUI_Beer_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C30D42F5F128BA78017F399F /* Pods_one2one_SwiftUI_Beer_App.framework */; };
 		B648239B0FA0523D6D422B41 /* Pods_one2one_SwiftUI_Beer_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30E6545B73FF2B36746238CE /* Pods_one2one_SwiftUI_Beer_AppTests.framework */; };
 		F7823B35B08C71EFB96FFB7F /* Pods_one2one_SwiftUI_Beer_App_one2one_SwiftUI_Beer_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D6C358E893D3F28F2F5D30A /* Pods_one2one_SwiftUI_Beer_App_one2one_SwiftUI_Beer_AppUITests.framework */; };
@@ -64,6 +68,10 @@
 		49A6A9902975775C00BC102D /* one2one_SwiftUI_Beer_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = one2one_SwiftUI_Beer_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		49A6A9AE29759C0B00BC102D /* BeerRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerRowView.swift; sourceTree = "<group>"; };
 		49A6A9B22975A7BD00BC102D /* KingFIsherImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingFIsherImageView.swift; sourceTree = "<group>"; };
+		49E95A94297DFA3600B9ED0F /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		49E95A96297DFA4000B9ED0F /* Beer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beer.swift; sourceTree = "<group>"; };
+		49E95A98297DFA6300B9ED0F /* ServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceManager.swift; sourceTree = "<group>"; };
+		49E95A9A297DFA6F00B9ED0F /* BeerApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerApiManager.swift; sourceTree = "<group>"; };
 		82D6F0423FC6B09510D4845C /* Pods-one2one-SwiftUI-Beer-App-one2one-SwiftUI-Beer-AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-one2one-SwiftUI-Beer-App-one2one-SwiftUI-Beer-AppUITests.debug.xcconfig"; path = "Target Support Files/Pods-one2one-SwiftUI-Beer-App-one2one-SwiftUI-Beer-AppUITests/Pods-one2one-SwiftUI-Beer-App-one2one-SwiftUI-Beer-AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		A2788BF91E13D84E968AAC49 /* Pods-one2one-SwiftUI-Beer-AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-one2one-SwiftUI-Beer-AppTests.release.xcconfig"; path = "Target Support Files/Pods-one2one-SwiftUI-Beer-AppTests/Pods-one2one-SwiftUI-Beer-AppTests.release.xcconfig"; sourceTree = "<group>"; };
 		B050F5FE759BFDC61E7A6E55 /* Pods-one2one-SwiftUI-Beer-App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-one2one-SwiftUI-Beer-App.debug.xcconfig"; path = "Target Support Files/Pods-one2one-SwiftUI-Beer-App/Pods-one2one-SwiftUI-Beer-App.debug.xcconfig"; sourceTree = "<group>"; };
@@ -143,6 +151,9 @@
 		49A6A9722975775A00BC102D /* one2one-SwiftUI-Beer-App */ = {
 			isa = PBXGroup;
 			children = (
+				49E95A93297DFA2900B9ED0F /* Helpers */,
+				49E95A92297DFA2100B9ED0F /* Models */,
+				49E95A91297DFA1900B9ED0F /* Services */,
 				499F05A92975C44500EB1B60 /* ViewModels */,
 				49A6A9A72975937000BC102D /* Views */,
 				49A6A9732975775A00BC102D /* one2one_SwiftUI_Beer_AppApp.swift */,
@@ -189,6 +200,31 @@
 				499A98A5297DBF4000E52FFC /* SearchBarView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		49E95A91297DFA1900B9ED0F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				49E95A98297DFA6300B9ED0F /* ServiceManager.swift */,
+				49E95A9A297DFA6F00B9ED0F /* BeerApiManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		49E95A92297DFA2100B9ED0F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				49E95A96297DFA4000B9ED0F /* Beer.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		49E95A93297DFA2900B9ED0F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				49E95A94297DFA3600B9ED0F /* Helper.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		EB9FBBAB8D58D5F812CA3B5E /* Pods */ = {
@@ -445,12 +481,16 @@
 				49A6A9762975775A00BC102D /* BeersView.swift in Sources */,
 				499A98A6297DBF4000E52FFC /* SearchBarView.swift in Sources */,
 				49A6A9AF29759C0B00BC102D /* BeerRowView.swift in Sources */,
+				49E95A97297DFA4000B9ED0F /* Beer.swift in Sources */,
 				499F142D29771ECE0077B481 /* RandomBeerButton.swift in Sources */,
 				499CF459297C42790040682F /* BeerDetailView.swift in Sources */,
 				499A98A2297D9C5E00E52FFC /* BeersViewModel.swift in Sources */,
 				49A6A9B32975A7BD00BC102D /* KingFIsherImageView.swift in Sources */,
+				49E95A95297DFA3600B9ED0F /* Helper.swift in Sources */,
+				49E95A9B297DFA6F00B9ED0F /* BeerApiManager.swift in Sources */,
 				499F05A82975C33B00EB1B60 /* BeerListView.swift in Sources */,
 				49A6A9742975775A00BC102D /* one2one_SwiftUI_Beer_AppApp.swift in Sources */,
+				49E95A99297DFA6300B9ED0F /* ServiceManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
