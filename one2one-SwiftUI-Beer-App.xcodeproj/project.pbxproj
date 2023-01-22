@@ -7,13 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		499A98A2297D9C5E00E52FFC /* BeersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499A98A1297D9C5E00E52FFC /* BeersViewModel.swift */; };
+		499A98A6297DBF4000E52FFC /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499A98A5297DBF4000E52FFC /* SearchBarView.swift */; };
+		499CF459297C42790040682F /* BeerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499CF458297C42790040682F /* BeerDetailView.swift */; };
+		499F05A82975C33B00EB1B60 /* BeerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499F05A72975C33B00EB1B60 /* BeerListView.swift */; };
+		499F142D29771ECE0077B481 /* RandomBeerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499F142C29771ECE0077B481 /* RandomBeerButton.swift */; };
 		49A6A9742975775A00BC102D /* one2one_SwiftUI_Beer_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A6A9732975775A00BC102D /* one2one_SwiftUI_Beer_AppApp.swift */; };
-		49A6A9762975775A00BC102D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A6A9752975775A00BC102D /* ContentView.swift */; };
+		49A6A9762975775A00BC102D /* BeersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A6A9752975775A00BC102D /* BeersView.swift */; };
 		49A6A9782975775C00BC102D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49A6A9772975775C00BC102D /* Assets.xcassets */; };
 		49A6A97B2975775C00BC102D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49A6A97A2975775C00BC102D /* Preview Assets.xcassets */; };
 		49A6A9852975775C00BC102D /* one2one_SwiftUI_Beer_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A6A9842975775C00BC102D /* one2one_SwiftUI_Beer_AppTests.swift */; };
 		49A6A98F2975775C00BC102D /* one2one_SwiftUI_Beer_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A6A98E2975775C00BC102D /* one2one_SwiftUI_Beer_AppUITests.swift */; };
 		49A6A9912975775C00BC102D /* one2one_SwiftUI_Beer_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A6A9902975775C00BC102D /* one2one_SwiftUI_Beer_AppUITestsLaunchTests.swift */; };
+		49A6A9A12975902A00BC102D /* BeerApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A6A9A02975902A00BC102D /* BeerApiManager.swift */; };
+		49A6A9A32975904600BC102D /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A6A9A22975904600BC102D /* ServiceManager.swift */; };
+		49A6A9A5297590DE00BC102D /* Beer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A6A9A4297590DE00BC102D /* Beer.swift */; };
+		49A6A9AF29759C0B00BC102D /* BeerRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A6A9AE29759C0B00BC102D /* BeerRowView.swift */; };
+		49A6A9B12975A30300BC102D /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A6A9B02975A30300BC102D /* Helper.swift */; };
+		49A6A9B32975A7BD00BC102D /* KingFIsherImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A6A9B22975A7BD00BC102D /* KingFIsherImageView.swift */; };
+		6EDA66C70C2033044F1423D8 /* Pods_one2one_SwiftUI_Beer_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C30D42F5F128BA78017F399F /* Pods_one2one_SwiftUI_Beer_App.framework */; };
+		B648239B0FA0523D6D422B41 /* Pods_one2one_SwiftUI_Beer_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30E6545B73FF2B36746238CE /* Pods_one2one_SwiftUI_Beer_AppTests.framework */; };
+		F7823B35B08C71EFB96FFB7F /* Pods_one2one_SwiftUI_Beer_App_one2one_SwiftUI_Beer_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D6C358E893D3F28F2F5D30A /* Pods_one2one_SwiftUI_Beer_App_one2one_SwiftUI_Beer_AppUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +48,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06984BB89047F6BE0DC33172 /* Pods-one2one-SwiftUI-Beer-App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-one2one-SwiftUI-Beer-App.release.xcconfig"; path = "Target Support Files/Pods-one2one-SwiftUI-Beer-App/Pods-one2one-SwiftUI-Beer-App.release.xcconfig"; sourceTree = "<group>"; };
+		0D6C358E893D3F28F2F5D30A /* Pods_one2one_SwiftUI_Beer_App_one2one_SwiftUI_Beer_AppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_one2one_SwiftUI_Beer_App_one2one_SwiftUI_Beer_AppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30E6545B73FF2B36746238CE /* Pods_one2one_SwiftUI_Beer_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_one2one_SwiftUI_Beer_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		499A98A1297D9C5E00E52FFC /* BeersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeersViewModel.swift; sourceTree = "<group>"; };
+		499A98A5297DBF4000E52FFC /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		499CF458297C42790040682F /* BeerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerDetailView.swift; sourceTree = "<group>"; };
+		499F05A72975C33B00EB1B60 /* BeerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerListView.swift; sourceTree = "<group>"; };
+		499F142C29771ECE0077B481 /* RandomBeerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomBeerButton.swift; sourceTree = "<group>"; };
 		49A6A9702975775A00BC102D /* one2one-SwiftUI-Beer-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "one2one-SwiftUI-Beer-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49A6A9732975775A00BC102D /* one2one_SwiftUI_Beer_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = one2one_SwiftUI_Beer_AppApp.swift; sourceTree = "<group>"; };
-		49A6A9752975775A00BC102D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		49A6A9752975775A00BC102D /* BeersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeersView.swift; sourceTree = "<group>"; };
 		49A6A9772975775C00BC102D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49A6A97A2975775C00BC102D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		49A6A9802975775C00BC102D /* one2one-SwiftUI-Beer-AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "one2one-SwiftUI-Beer-AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +66,18 @@
 		49A6A98A2975775C00BC102D /* one2one-SwiftUI-Beer-AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "one2one-SwiftUI-Beer-AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49A6A98E2975775C00BC102D /* one2one_SwiftUI_Beer_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = one2one_SwiftUI_Beer_AppUITests.swift; sourceTree = "<group>"; };
 		49A6A9902975775C00BC102D /* one2one_SwiftUI_Beer_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = one2one_SwiftUI_Beer_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		49A6A9A02975902A00BC102D /* BeerApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BeerApiManager.swift; path = "../../../one2one-Beer-/one2one-Beer-App/Services/BeerApiManager.swift"; sourceTree = "<group>"; };
+		49A6A9A22975904600BC102D /* ServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ServiceManager.swift; path = "../../../one2one-Beer-/one2one-Beer-App/Services/ServiceManager.swift"; sourceTree = "<group>"; };
+		49A6A9A4297590DE00BC102D /* Beer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Beer.swift; path = "../../../one2one-Beer-/one2one-Beer-App/Models/Beer.swift"; sourceTree = "<group>"; };
+		49A6A9AE29759C0B00BC102D /* BeerRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerRowView.swift; sourceTree = "<group>"; };
+		49A6A9B02975A30300BC102D /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Helper.swift; path = "../../../one2one-Beer-/one2one-Beer-App/Helpers/Helper.swift"; sourceTree = "<group>"; };
+		49A6A9B22975A7BD00BC102D /* KingFIsherImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingFIsherImageView.swift; sourceTree = "<group>"; };
+		82D6F0423FC6B09510D4845C /* Pods-one2one-SwiftUI-Beer-App-one2one-SwiftUI-Beer-AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-one2one-SwiftUI-Beer-App-one2one-SwiftUI-Beer-AppUITests.debug.xcconfig"; path = "Target Support Files/Pods-one2one-SwiftUI-Beer-App-one2one-SwiftUI-Beer-AppUITests/Pods-one2one-SwiftUI-Beer-App-one2one-SwiftUI-Beer-AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A2788BF91E13D84E968AAC49 /* Pods-one2one-SwiftUI-Beer-AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-one2one-SwiftUI-Beer-AppTests.release.xcconfig"; path = "Target Support Files/Pods-one2one-SwiftUI-Beer-AppTests/Pods-one2one-SwiftUI-Beer-AppTests.release.xcconfig"; sourceTree = "<group>"; };
+		B050F5FE759BFDC61E7A6E55 /* Pods-one2one-SwiftUI-Beer-App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-one2one-SwiftUI-Beer-App.debug.xcconfig"; path = "Target Support Files/Pods-one2one-SwiftUI-Beer-App/Pods-one2one-SwiftUI-Beer-App.debug.xcconfig"; sourceTree = "<group>"; };
+		B4373844703AB6C20B30A24C /* Pods-one2one-SwiftUI-Beer-App-one2one-SwiftUI-Beer-AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-one2one-SwiftUI-Beer-App-one2one-SwiftUI-Beer-AppUITests.release.xcconfig"; path = "Target Support Files/Pods-one2one-SwiftUI-Beer-App-one2one-SwiftUI-Beer-AppUITests/Pods-one2one-SwiftUI-Beer-App-one2one-SwiftUI-Beer-AppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C30D42F5F128BA78017F399F /* Pods_one2one_SwiftUI_Beer_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_one2one_SwiftUI_Beer_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE2AEA5F3B752C42B6F51292 /* Pods-one2one-SwiftUI-Beer-AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-one2one-SwiftUI-Beer-AppTests.debug.xcconfig"; path = "Target Support Files/Pods-one2one-SwiftUI-Beer-AppTests/Pods-one2one-SwiftUI-Beer-AppTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EDA66C70C2033044F1423D8 /* Pods_one2one_SwiftUI_Beer_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B648239B0FA0523D6D422B41 /* Pods_one2one_SwiftUI_Beer_AppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,12 +101,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7823B35B08C71EFB96FFB7F /* Pods_one2one_SwiftUI_Beer_App_one2one_SwiftUI_Beer_AppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E0AC08F3D94C86A888BB850 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C30D42F5F128BA78017F399F /* Pods_one2one_SwiftUI_Beer_App.framework */,
+				0D6C358E893D3F28F2F5D30A /* Pods_one2one_SwiftUI_Beer_App_one2one_SwiftUI_Beer_AppUITests.framework */,
+				30E6545B73FF2B36746238CE /* Pods_one2one_SwiftUI_Beer_AppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		499F05A92975C44500EB1B60 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				499A98A1297D9C5E00E52FFC /* BeersViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		49A6A9672975775A00BC102D = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +133,8 @@
 				49A6A9832975775C00BC102D /* one2one-SwiftUI-Beer-AppTests */,
 				49A6A98D2975775C00BC102D /* one2one-SwiftUI-Beer-AppUITests */,
 				49A6A9712975775A00BC102D /* Products */,
+				EB9FBBAB8D58D5F812CA3B5E /* Pods */,
+				1E0AC08F3D94C86A888BB850 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,8 +151,12 @@
 		49A6A9722975775A00BC102D /* one2one-SwiftUI-Beer-App */ = {
 			isa = PBXGroup;
 			children = (
+				499F05A92975C44500EB1B60 /* ViewModels */,
+				49A6A9A72975937000BC102D /* Views */,
+				49A6A99F29758FFB00BC102D /* Services */,
+				49A6A99E29758FF100BC102D /* Helpers */,
+				49A6A99D29758FDE00BC102D /* Models */,
 				49A6A9732975775A00BC102D /* one2one_SwiftUI_Beer_AppApp.swift */,
-				49A6A9752975775A00BC102D /* ContentView.swift */,
 				49A6A9772975775C00BC102D /* Assets.xcassets */,
 				49A6A9792975775C00BC102D /* Preview Content */,
 			);
@@ -127,6 +188,58 @@
 			path = "one2one-SwiftUI-Beer-AppUITests";
 			sourceTree = "<group>";
 		};
+		49A6A99D29758FDE00BC102D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				49A6A9A4297590DE00BC102D /* Beer.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		49A6A99E29758FF100BC102D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				49A6A9B02975A30300BC102D /* Helper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		49A6A99F29758FFB00BC102D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				49A6A9A22975904600BC102D /* ServiceManager.swift */,
+				49A6A9A02975902A00BC102D /* BeerApiManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		49A6A9A72975937000BC102D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				49A6A9752975775A00BC102D /* BeersView.swift */,
+				499F05A72975C33B00EB1B60 /* BeerListView.swift */,
+				49A6A9AE29759C0B00BC102D /* BeerRowView.swift */,
+				49A6A9B22975A7BD00BC102D /* KingFIsherImageView.swift */,
+				499F142C29771ECE0077B481 /* RandomBeerButton.swift */,
+				499CF458297C42790040682F /* BeerDetailView.swift */,
+				499A98A5297DBF4000E52FFC /* SearchBarView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EB9FBBAB8D58D5F812CA3B5E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B050F5FE759BFDC61E7A6E55 /* Pods-one2one-SwiftUI-Beer-App.debug.xcconfig */,
+				06984BB89047F6BE0DC33172 /* Pods-one2one-SwiftUI-Beer-App.release.xcconfig */,
+				82D6F0423FC6B09510D4845C /* Pods-one2one-SwiftUI-Beer-App-one2one-SwiftUI-Beer-AppUITests.debug.xcconfig */,
+				B4373844703AB6C20B30A24C /* Pods-one2one-SwiftUI-Beer-App-one2one-SwiftUI-Beer-AppUITests.release.xcconfig */,
+				FE2AEA5F3B752C42B6F51292 /* Pods-one2one-SwiftUI-Beer-AppTests.debug.xcconfig */,
+				A2788BF91E13D84E968AAC49 /* Pods-one2one-SwiftUI-Beer-AppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +247,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 49A6A9942975775C00BC102D /* Build configuration list for PBXNativeTarget "one2one-SwiftUI-Beer-App" */;
 			buildPhases = (
+				85F7D4450BBC748D5AFD883B /* [CP] Check Pods Manifest.lock */,
 				49A6A96C2975775A00BC102D /* Sources */,
 				49A6A96D2975775A00BC102D /* Frameworks */,
 				49A6A96E2975775A00BC102D /* Resources */,
+				6BAD3D349E6DB80A43720A43 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +266,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 49A6A9972975775C00BC102D /* Build configuration list for PBXNativeTarget "one2one-SwiftUI-Beer-AppTests" */;
 			buildPhases = (
+				35D636D41FCCF3BC5B954FF3 /* [CP] Check Pods Manifest.lock */,
 				49A6A97C2975775C00BC102D /* Sources */,
 				49A6A97D2975775C00BC102D /* Frameworks */,
 				49A6A97E2975775C00BC102D /* Resources */,
@@ -169,9 +285,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 49A6A99A2975775C00BC102D /* Build configuration list for PBXNativeTarget "one2one-SwiftUI-Beer-AppUITests" */;
 			buildPhases = (
+				A500857EE3706EE664F56E34 /* [CP] Check Pods Manifest.lock */,
 				49A6A9862975775C00BC102D /* Sources */,
 				49A6A9872975775C00BC102D /* Frameworks */,
 				49A6A9882975775C00BC102D /* Resources */,
+				914349BF60C46515C050C5E7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,13 +370,127 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		35D636D41FCCF3BC5B954FF3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-one2one-SwiftUI-Beer-AppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6BAD3D349E6DB80A43720A43 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-one2one-SwiftUI-Beer-App/Pods-one2one-SwiftUI-Beer-App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-one2one-SwiftUI-Beer-App/Pods-one2one-SwiftUI-Beer-App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-one2one-SwiftUI-Beer-App/Pods-one2one-SwiftUI-Beer-App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85F7D4450BBC748D5AFD883B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-one2one-SwiftUI-Beer-App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		914349BF60C46515C050C5E7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-one2one-SwiftUI-Beer-App-one2one-SwiftUI-Beer-AppUITests/Pods-one2one-SwiftUI-Beer-App-one2one-SwiftUI-Beer-AppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-one2one-SwiftUI-Beer-App-one2one-SwiftUI-Beer-AppUITests/Pods-one2one-SwiftUI-Beer-App-one2one-SwiftUI-Beer-AppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-one2one-SwiftUI-Beer-App-one2one-SwiftUI-Beer-AppUITests/Pods-one2one-SwiftUI-Beer-App-one2one-SwiftUI-Beer-AppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A500857EE3706EE664F56E34 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-one2one-SwiftUI-Beer-App-one2one-SwiftUI-Beer-AppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		49A6A96C2975775A00BC102D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49A6A9762975775A00BC102D /* ContentView.swift in Sources */,
+				49A6A9762975775A00BC102D /* BeersView.swift in Sources */,
+				499A98A6297DBF4000E52FFC /* SearchBarView.swift in Sources */,
+				49A6A9A12975902A00BC102D /* BeerApiManager.swift in Sources */,
+				49A6A9AF29759C0B00BC102D /* BeerRowView.swift in Sources */,
+				499F142D29771ECE0077B481 /* RandomBeerButton.swift in Sources */,
+				499CF459297C42790040682F /* BeerDetailView.swift in Sources */,
+				49A6A9B12975A30300BC102D /* Helper.swift in Sources */,
+				499A98A2297D9C5E00E52FFC /* BeersViewModel.swift in Sources */,
+				49A6A9B32975A7BD00BC102D /* KingFIsherImageView.swift in Sources */,
+				49A6A9A5297590DE00BC102D /* Beer.swift in Sources */,
+				499F05A82975C33B00EB1B60 /* BeerListView.swift in Sources */,
 				49A6A9742975775A00BC102D /* one2one_SwiftUI_Beer_AppApp.swift in Sources */,
+				49A6A9A32975904600BC102D /* ServiceManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +645,7 @@
 		};
 		49A6A9952975775C00BC102D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B050F5FE759BFDC61E7A6E55 /* Pods-one2one-SwiftUI-Beer-App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -441,6 +674,7 @@
 		};
 		49A6A9962975775C00BC102D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06984BB89047F6BE0DC33172 /* Pods-one2one-SwiftUI-Beer-App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -469,6 +703,7 @@
 		};
 		49A6A9982975775C00BC102D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE2AEA5F3B752C42B6F51292 /* Pods-one2one-SwiftUI-Beer-AppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +723,7 @@
 		};
 		49A6A9992975775C00BC102D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2788BF91E13D84E968AAC49 /* Pods-one2one-SwiftUI-Beer-AppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -507,6 +743,7 @@
 		};
 		49A6A99B2975775C00BC102D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82D6F0423FC6B09510D4845C /* Pods-one2one-SwiftUI-Beer-App-one2one-SwiftUI-Beer-AppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -524,6 +761,7 @@
 		};
 		49A6A99C2975775C00BC102D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4373844703AB6C20B30A24C /* Pods-one2one-SwiftUI-Beer-App-one2one-SwiftUI-Beer-AppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

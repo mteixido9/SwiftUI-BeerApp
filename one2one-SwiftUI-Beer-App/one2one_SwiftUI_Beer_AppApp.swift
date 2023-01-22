@@ -11,7 +11,7 @@ import SwiftUI
 struct one2one_SwiftUI_Beer_AppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            BeersView(viewModel: BeersViewModel())
         }
     }
 }
