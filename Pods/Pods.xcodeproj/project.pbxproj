@@ -166,7 +166,7 @@
 		872D7EFA572ECEE8EF993C27196E16DD /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
 		8C87E40B23F1E8549A416BC1F293D9BB /* ImageDataProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDataProvider.swift; path = Sources/General/ImageSource/ImageDataProvider.swift; sourceTree = "<group>"; };
 		9A849478CAB6F9978208E8094FE89232 /* GIFAnimatedImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GIFAnimatedImage.swift; path = Sources/Image/GIFAnimatedImage.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9EA7DAAB06A4DF353C801675AAA18DA0 /* Pods-one2one-SwiftUI-Beer-AppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-one2one-SwiftUI-Beer-AppTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		A1BBADC0C31E0AF487F1F11B235A95EB /* Kingfisher-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kingfisher-umbrella.h"; sourceTree = "<group>"; };
 		A6594FFD09D85D5FA4DAEAD3BAC33878 /* Pods-one2one-SwiftUI-Beer-App-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-one2one-SwiftUI-Beer-App-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -185,7 +185,7 @@
 		C0B8BB66619A56BE9921CB8D9DF82767 /* KingfisherManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KingfisherManager.swift; path = Sources/General/KingfisherManager.swift; sourceTree = "<group>"; };
 		C164151F1DD34151134DD11A5DEE119F /* TVMonogramView+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "TVMonogramView+Kingfisher.swift"; path = "Sources/Extensions/TVMonogramView+Kingfisher.swift"; sourceTree = "<group>"; };
 		C246729A6105F01A8A16B833E99CD9F2 /* ImageView+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ImageView+Kingfisher.swift"; path = "Sources/Extensions/ImageView+Kingfisher.swift"; sourceTree = "<group>"; };
-		C3F44C782D64D7EB20B61CE3844EBFAD /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3F44C782D64D7EB20B61CE3844EBFAD /* Kingfisher */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Kingfisher; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C47930C028FD88B90B6B4E5E3630C601 /* Pods-one2one-SwiftUI-Beer-App-one2one-SwiftUI-Beer-AppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-one2one-SwiftUI-Beer-App-one2one-SwiftUI-Beer-AppUITests-umbrella.h"; sourceTree = "<group>"; };
 		C6733DF670ECE7EDE7E8E9FF6B203FCA /* Pods-one2one-SwiftUI-Beer-AppTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-one2one-SwiftUI-Beer-AppTests"; path = Pods_one2one_SwiftUI_Beer_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6BBF7A8EDFDD0832E4E1C9E23233192 /* ImageDataProcessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDataProcessor.swift; path = Sources/Networking/ImageDataProcessor.swift; sourceTree = "<group>"; };
@@ -202,7 +202,7 @@
 		DB36255D6E904725FBD19ED8D84D9C39 /* KFImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KFImage.swift; path = Sources/SwiftUI/KFImage.swift; sourceTree = "<group>"; };
 		DC9D0752BD9D4858E0DB474B6E002E44 /* ImageTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageTransition.swift; path = Sources/Image/ImageTransition.swift; sourceTree = "<group>"; };
 		E7B9EE33998AFFFE3315E0AF47F0F341 /* Pods-one2one-SwiftUI-Beer-App-one2one-SwiftUI-Beer-AppUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-one2one-SwiftUI-Beer-App-one2one-SwiftUI-Beer-AppUITests-Info.plist"; sourceTree = "<group>"; };
-		E9D67140750E2D69BC29BDDCD8B50355 /* Pods_one2one_SwiftUI_Beer_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_one2one_SwiftUI_Beer_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9D67140750E2D69BC29BDDCD8B50355 /* Pods-one2one-SwiftUI-Beer-App */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-one2one-SwiftUI-Beer-App"; path = Pods_one2one_SwiftUI_Beer_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEBEC3FADB914E043969AD9ED503C370 /* Pods-one2one-SwiftUI-Beer-App-one2one-SwiftUI-Beer-AppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-one2one-SwiftUI-Beer-App-one2one-SwiftUI-Beer-AppUITests-dummy.m"; sourceTree = "<group>"; };
 		F0577C17000F0186FBDC55B6341BD085 /* SizeExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SizeExtensions.swift; path = Sources/Utility/SizeExtensions.swift; sourceTree = "<group>"; };
 		F2601D984AFC0E54B562FE838D8A618D /* ImageProgressive.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageProgressive.swift; path = Sources/Image/ImageProgressive.swift; sourceTree = "<group>"; };
@@ -350,6 +350,7 @@
 				775539679F9FE4628F30B900CAF405C5 /* WKInterfaceImage+Kingfisher.swift */,
 				06A5FF926D3FB856EE8135F4DCE85836 /* Support Files */,
 			);
+			name = Kingfisher;
 			path = Kingfisher;
 			sourceTree = "<group>";
 		};
@@ -383,8 +384,8 @@
 		AEF4ACCD4C4ACA1C814C1AD06176187D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C3F44C782D64D7EB20B61CE3844EBFAD /* Kingfisher.framework */,
-				E9D67140750E2D69BC29BDDCD8B50355 /* Pods_one2one_SwiftUI_Beer_App.framework */,
+				C3F44C782D64D7EB20B61CE3844EBFAD /* Kingfisher */,
+				E9D67140750E2D69BC29BDDCD8B50355 /* Pods-one2one-SwiftUI-Beer-App */,
 				84F732FE544F15AEE43713B3F839B285 /* Pods-one2one-SwiftUI-Beer-App-one2one-SwiftUI-Beer-AppUITests */,
 				C6733DF670ECE7EDE7E8E9FF6B203FCA /* Pods-one2one-SwiftUI-Beer-AppTests */,
 			);
@@ -497,7 +498,7 @@
 			);
 			name = "Pods-one2one-SwiftUI-Beer-App";
 			productName = Pods_one2one_SwiftUI_Beer_App;
-			productReference = E9D67140750E2D69BC29BDDCD8B50355 /* Pods_one2one_SwiftUI_Beer_App.framework */;
+			productReference = E9D67140750E2D69BC29BDDCD8B50355 /* Pods-one2one-SwiftUI-Beer-App */;
 			productType = "com.apple.product-type.framework";
 		};
 		8ADD7697298510B694D6A533A9251E69 /* Pods-one2one-SwiftUI-Beer-AppTests */ = {
@@ -553,7 +554,7 @@
 			);
 			name = Kingfisher;
 			productName = Kingfisher;
-			productReference = C3F44C782D64D7EB20B61CE3844EBFAD /* Kingfisher.framework */;
+			productReference = C3F44C782D64D7EB20B61CE3844EBFAD /* Kingfisher */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
